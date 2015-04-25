@@ -6,10 +6,10 @@ output: html_document
 Variables
 ---------
 
-Subject 
-        The subject of the test, represented as IDs ranging from 1 to 30
+Subject : 
+        Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
         
-Activity Name
+Activity Name :
         The Activity performed by the subject. Possible values are
         
         
@@ -164,7 +164,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-For this study we are only using the mean and std values.
+For this study we are only using the mean and std values. Features are normalized and bounded within [-1,1].
 
 Use the following code to view the tidy_data in R
 
